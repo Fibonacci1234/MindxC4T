@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: darkslategrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+ul.nav {
+    display: flex;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+ul.nav li {
+    padding: 10px;
+    color: white;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+#cart {
+    margin-left: auto;
+}
+
+#cart:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.container {
+    margin: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container .product {
+    width: 300px;
+    margin: 5px;
+}
+
+.product img {
+    width: 90%;
+    height: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+}

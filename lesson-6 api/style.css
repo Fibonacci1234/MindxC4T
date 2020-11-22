@@ -1,0 +1,52 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    margin: 0 50px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.login {
+    margin: 0 20px;
+    padding: 10px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: 2px dashed grey;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.pokemons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.pokemon {
+    margin: 5px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.pokemon img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+input[type=button] {
+    display: block;
+    margin: 10px auto;
+}
